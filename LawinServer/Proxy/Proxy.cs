@@ -30,7 +30,7 @@ namespace LawinServer.Net
         private int count = 0;
         #endregion
 
-        public Proxy() : this(9999) { } //default port
+        public Proxy() : this(3551) { } //default port
 
         public Proxy(ushort port)
         {
